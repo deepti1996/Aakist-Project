@@ -752,3 +752,11 @@ body {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
 }
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
