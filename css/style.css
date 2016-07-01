@@ -1048,4 +1048,10 @@ h4.great {
 .ui-slider-range-min {
   background: #2980b9;
 }
-
+a{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
