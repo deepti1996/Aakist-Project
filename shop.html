@@ -107,231 +107,312 @@
             	<!-- /.navbar-collapse -->
         	</div>
         	<!-- /.container -->
-    	</nav><br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Aakist 3D Printing Marketplace
-                </h1>
-            </div>
-        </div>
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Wedding</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>       
+    	</nav>
+        <!--Login-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">LOGIN HERE</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn center-block btn-primary btn-lg btn-block">Login</button>
+                        </form>
+                        <div class="col-lg-12">
+                            <h2 class="intro-text text-center signup1"><strong>OR</strong></h2>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-facebook">
+                                <span class="fa fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with  Facebook
+                            </button>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-google" style="background-color:red; border-color:red">
+                                <span class="fa fa-google-plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with Google+
+                            </button><br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Customizable</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
+            </div>
+        </div>
+        <!--Login-->
+        <!--Register-->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">REGISTER HERE</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn center-block btn-primary btn-lg btn-block">Register</button>
+                        </form>
+                        <div class="col-lg-12">
+                            <h2 class="intro-text text-center signup1"><strong>OR</strong></h2>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-facebook">
+                                <span class="fa fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with  Facebook
+                            </button>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-google" style="background-color:red; border-color:red">
+                                <span class="fa fa-google-plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with Google+
+                            </button><br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <!--Register-->
+        <br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Aakist 3D Printing Marketplace</h1>
+                </div>
+            </div>
+            <section class="no-padding" id="portfolio">
+                <div class="container-fluid">
+                    <div class="row no-gutter popup-gallery">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Wedding</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>       
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Customizable</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Jewellery</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Accessories</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
-                    </div>
-                </div>
+            <section class="no-padding" id="portfolio">
+                <div class="container-fluid">
+                    <div class="row no-gutter popup-gallery">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Jewellery</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Accessories</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Games</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Games</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Art</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
+            <section class="no-padding" id="portfolio">
+                <div class="container-fluid">
+                    <div class="row no-gutter popup-gallery">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Art</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hover ehover5">
+                                <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>Miniatures</h2>
+                                    <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
+                                </div>         
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="hover ehover5">
-                        <img class="img-responsive" src="Img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Miniatures</h2>
-                            <button class="info" data-toggle="modal" data-target="#modal1">Shop Now</button>
-                        </div>         
-                    </div>
+            </section>
+            <br><br><br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="intro-text text-center">Featured Products
+                    </h1>
                 </div>
             </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <br>
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                    <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+            </div>
+            <br>
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="item.html">
+                        <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
+                    </a>
+                    <h4 class="text-center">
+                        <a href="item.html">Product Name</a>
+                    </h4>
+                    <p class="text-center">$xxx by owner</p>
+                </div>
+            </div>
+            <!-- /.row -->
         </div>
-    </section>
-        <br><br><br>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="intro-text text-center">Featured Products
-                </h1>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="row">
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-        </div>
-        <!-- /.row -->
-<br>
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-        </div>
-    <br>
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="item.html">
-                    <img class="img-responsive" src="http://launchclinic.com/files/2015/09/Week-3-700-x-400.png" alt="">
-                </a>
-                <h4 class="text-center">
-                    <a href="item.html">Product Name</a>
-                </h4>
-                <p class="text-center">$xxx by owner</p>
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-
-<br><br>
-    <div class="intro-header">
+        <br><br>
+        <div class="intro-header">
             <div class="col-lg-6 img">
                 <br><br><br><br>
                 <a href="" style="color:white; text-decoration:none;"><h2>HIRE A DESIGNER</h2></a>
@@ -343,36 +424,47 @@
                 <br><br><br><br>
             </div>
             <div class="clearfix"></div>
-        <!-- /.container -->
-    </div>
-    <!-- /.banner -->
+            <!-- /.container -->
+        </div>
+        <!-- /.banner -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; AAKIST 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright">Copyright &copy; AAKIST 2016</span>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+
+        <script>
+            $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+            });
+        </script>
+        <script type="text/javascript">
+            $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+            });
+        </script>
     </body>
 </html>
