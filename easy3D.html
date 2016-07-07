@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+
+    	<title>Aakist</title>
+
+    	<!-- Bootstrap Core CSS -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- Custom CSS -->
+    	<link href="css/style.css" rel="stylesheet">
+
+    	<!-- Custom Fonts -->
+    	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ 		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+    	<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        	<div class="container topnav">
+            	<!-- Brand and toggle get grouped for better mobile display -->
+            	<div class="navbar-header">
+                	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    	<span class="sr-only">Toggle navigation</span>
+                    	<span class="icon-bar"></span>
+                    	<span class="icon-bar"></span>
+                    	<span class="icon-bar"></span>
+                	</button>
+                	<a class="navbar-brand topnav" href="index.html">AAKIST</a>
+            	</div>
+            	<!-- Collect the nav links, forms, and other content for toggling -->
+            	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            		<ul class="nav navbar-nav navbar-left dropdown">
+            			<li>
+            				<a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            					Shop 
+            					<span class="caret"></span>
+            					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    								<li><a href="#">Action</a></li>
+    								<li><a href="#">Another action</a></li>
+    								<li><a href="#">Something else here</a></li>
+    								<li role="separator" class="divider"></li>
+    								<li><a href="#">Separated link</a></li>
+  								</ul>
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            					Make
+            					<span class="caret"></span>
+            					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    								<li><a href="#">Action</a></li>
+    								<li><a href="#">Another action</a></li>
+    								<li><a href="#">Something else here</a></li>
+    								<li role="separator" class="divider"></li>
+    								<li><a href="#">Separated link</a></li>
+  								</ul>
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#" class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            					Community
+            					<span class="caret"></span>
+            					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    								<li><a href="#">Action</a></li>
+    								<li><a href="#">Another action</a></li>
+    								<li><a href="#">Something else here</a></li>
+    								<li role="separator" class="divider"></li>
+    								<li><a href="#">Separated link</a></li>
+  								</ul>
+            				</a>
+            			</li>
+            		</ul>
+                	<ul class="nav navbar-nav navbar-right">
+                		<li>
+                			<form class="navbar-form navbar-right" role="search">
+        						<div class="form-group has-feedback has-feedback-right">
+          							<input type="text" class="form-control" placeholder="Search">
+          							<a href="#"><i class="form-control-feedback glyphicon glyphicon-search" aria-hidden="true"></i></a>
+        						</div>
+        						<button class="btn btn-default">UPLOAD</button>
+      						</form>
+                		</li>
+                    	<li>
+                        	<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+                    	</li>
+                    	<li>
+                        	<a href="#" data-toggle="modal" data-target="#myModal1">Join</a>
+                    	</li>
+                    	<li>
+                        	<a href="#" data-toggle="modal" data-target="#myModal">Sign In</a>
+                    	</li>
+                	</ul>
+            	</div>
+            	<!-- /.navbar-collapse -->
+        	</div>
+        	<!-- /.container -->
+    	</nav>
+        <!--Login-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">LOGIN HERE</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn center-block btn-primary btn-lg btn-block">Login</button>
+                        </form>
+                        <div class="col-lg-12">
+                            <h2 class="intro-text text-center signup1"><strong>OR</strong></h2>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-facebook">
+                                <span class="fa fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with  Facebook
+                            </button>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-google" style="background-color:red; border-color:red">
+                                <span class="fa fa-google-plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with Google+
+                            </button><br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Login-->
+        <!--Register-->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">REGISTER HERE</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn center-block btn-primary btn-lg btn-block">Register</button>
+                        </form>
+                        <div class="col-lg-12">
+                            <h2 class="intro-text text-center signup1"><strong>OR</strong></h2>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-facebook">
+                                <span class="fa fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with  Facebook
+                            </button>
+                            <button class="btn center-block btn-primary btn-block btn-social btn-google" style="background-color:red; border-color:red">
+                                <span class="fa fa-google-plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Log in with Google+
+                            </button><br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Register-->
+        <header class="intro-header" style="background-image: url('img/downloads-bg.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="site-heading">
+                            <h1>Easy 3D Printing Apps</h1>
+                            <br>
+                            <span class="subheading">Create and customize your own products with these easy apps.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <br><br>
+        <div class="container">
+            <!-- Page Header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Page Heading</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Page Header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Page Heading</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Page Header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Page Heading</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+            <!-- Projects Row -->
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="http://pictureperfect.com.au/wp-content/themes/erange/images/placeholder/700x400.gif" alt="">
+                    </a>
+                    <h4>
+                        <a href="#">Project Name</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <br><br>
+        <section>
+            <div class="container-fluid banner">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Share Your Story</h2>
+                        <br>
+                        <p>We're here to help you find design assistance, but the design process and financial agreements are something you'll work out with the designer directly. Read about the Three C's of Hiring a Designer to make your partnership as successful as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; AAKIST 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <script>
+            $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+            });
+        </script>
+        <script type="text/javascript">
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').focus()
+            });
+        </script>
+    </body>
+</html>
