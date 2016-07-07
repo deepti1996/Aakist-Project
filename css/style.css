@@ -30,6 +30,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 .img{
@@ -1048,4 +1049,20 @@ h4.great {
 
 .ui-slider-range-min {
   background: #2980b9;
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
