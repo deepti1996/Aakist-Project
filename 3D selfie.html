@@ -335,12 +335,83 @@
 
     <div class="banner">
     </div>
+    <br><br><br>
+        <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect1">
+                        <img class="img-responsive" src="Img/portfolio/fullsize/1.jpg" alt="">
+                        <div class="overlay1" role="tab" id="headingOne">
+                            <h2>SMALL</h2>
+                            <button class="info1 collapse" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample" data-parent="#portfolio">SCHEDULE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect1">
+                        <img class="img-responsive" src="Img/portfolio/fullsize/2.jpg" alt="">
+                        <div class="overlay1" role="tab" id="headingTwo">
+                            <h2>MEDIUM</h2>
+                            <button class="info1 collapse" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-parent="#portfolio">SCHEDULE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect1">
+                        <img class="img-responsive" src="Img/portfolio/fullsize/3.jpg" alt="">
+                        <div class="overlay1" role="tab" id="headingThree">
+                            <h2>LARGE</h2>
+                            <button class="info1 collapse" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-parent="#portfolio">SCHEDULE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="panel-collapse collapse in" id="collapseExample">
+            <div class="well">
+                <form>
+                    <div class="form-group">
+                        <h4 for="exampleInputName2">Name</h4>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <h4 for="exampleInputEmail1">Email address</h4>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <h4 for="exampleInputPassword1">Contact Number</h4>
+                        <input type="tel" class="form-control" id="exampleInputtel1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <h4 for="exampleInputFile">Address</h4>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <h4 for="exampleInputFile">Time Slot</h4>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>                           
+                    </div>
+                    <br><br>
+                    <button type="submit" class="btn btn-default btn-primary">Schedule Now</button>
+                    </form>
+            </div>
+        </div>
 
         <section>
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">How Do I Get One?</h1>
+                    <h1 class="section-heading">How is 3D scanning done?</h1>
                     <p class="section-paragraph">If you live in the India, you can visit a location that offers scanning. Strike a pose and hold it for 2 minutes. The scanner will move around you, capturing your image as a 3D digital file. The file will be automatically uploaded to Aakist, and you'll get an email with a link to purchase. You can select from a variety of materials, including Full Color Sandstone, which captures color and details really well. You can also get a 3D Selfie in Steel, Brass, or even Silver and Gold!</p>
                 </div>
             </div>
@@ -348,10 +419,26 @@
             </div>
         <!-- /.container -->
         </section>
+        <br><br>
         <div class="container text-center">
             <iframe width="750" height="315" src="https://www.youtube.com/embed/IN-wnuCZdqU" frameborder="0"></iframe>
         </div>
-        <br>
+        <br><br>
+        <div class="intro-header1">
+            <div class="col-lg-6 img">
+                <br><br><br><br>
+                <a href="" style="color:white; text-decoration:none;"><h2>HIRE A DESIGNER</h2></a>
+                <br><br><br><br>
+            </div>
+            <div class="col-lg-6 img">
+                <br><br><br><br>
+                <a href="" style="color:white; text-decoration:none;"><h2>SHARE YOUR STORY</h2></a>
+                <br><br><br><br>
+            </div>
+            <div class="clearfix"></div>
+        <!-- /.container -->
+        </div>
+        <!-- /.banner -->
         <footer>
         <div class="container">
             <div class="row">
@@ -388,6 +475,9 @@
         $('#myModal').on('shown.bs.modal', function () {
             $('#myInput').focus()
         })
+        </script>
+        <script type="text/javascript">
+            $('.collapse').collapse();
         </script>
 	</body>
 	
