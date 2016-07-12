@@ -403,3 +403,6 @@ section.success a.active {
 .bg-light-gray {
     background-color: #f7f7f7;
 }
+.bg-darkest-gray {
+    background-color: #999999;
+}
