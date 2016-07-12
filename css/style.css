@@ -127,6 +127,13 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height:430px;
+}
+.banner1 {
+    padding: 100px 0;
+    color: #f8f8f8;
     background: url(../img/3D.jpg) no-repeat center center;
     background-size: cover;
     height:430px;
@@ -153,6 +160,30 @@ h6 {
     }
 
     ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+@media(max-width:1199px) {
+    ul.banner1-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner1 h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner1-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner1-social-buttons > li:last-child {
         margin-bottom: 0;
     }
 }

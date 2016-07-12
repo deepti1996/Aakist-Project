@@ -11,6 +11,14 @@ header {
   text-align: center;
   color: white;
 }
+hr {
+  border-color: #f05f40;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
 header .header-content {
   position: relative;
   text-align: center;
@@ -55,10 +63,6 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-.section-heading {
-  margin-top: 0;
 }
 .btn-primary1 {
   color: #ffffff;
@@ -363,4 +367,39 @@ section h3.section-subheading1 {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+}
+
+section.success {
+    color: #fff;
+    background: #f05f40;
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+.content-section-a {
+    padding: 50px 0;
+}
+
+.content-section-b {
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+.bg-light-gray {
+    background-color: #f7f7f7;
 }
