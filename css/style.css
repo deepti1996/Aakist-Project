@@ -780,35 +780,40 @@ body {
 }
 
  
-.ehover5 h2, .ehover5 img {
+.ehover1 img {
+  transition: all 0.4s linear;
+}
+
+.ehover1 .overlay {
+  background-color: rgba(0,0,0, 0.5);
   transition: all 0.4s ease-in-out;
 }
 
-.ehover5 img {
-  transition: all 0.4s ease-in;
+.ehover1 h2 {
+  transition: all 0.2s ease-in-out;
 }
 
-.ehover5:hover img {
-  filter: blur(0.5px);
-  -webkit-filter:blur(0.5px);
-  transform: scale(1);
-}
-.ehover5 .overlay {
-  transition: all 0.4s ease-in-out;
-}
-
-.ehover5:hover .overlay {
-  background-color: rgba(170,170,170,0.4);
-}
-
-.ehover5 button.info {
+.ehover1 button.info {
   opacity: 0;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.ehover5:hover button.info {
+
+.ehover1:hover img {
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.ehover1:hover .overlay {
+  opacity: 1;
+}
+
+.ehover1:hover h2, .ehover1:hover button.info {
   opacity: 1;
   -moz-transform: translatey(0);
   -ms-transform: translatey(0);
@@ -817,7 +822,7 @@ body {
   transform: translatey(0);
 }
 
-.ehover5 button.info:hover {
+.ehover1:hover button.info {
   -moz-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
