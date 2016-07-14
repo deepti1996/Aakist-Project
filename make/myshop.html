@@ -315,6 +315,114 @@
                 </div>
             </div>
         </header>
+
+        <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item text-center">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../img/portfolio-1.jpg">
+                                </a>
+                                <h3>Our Work</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item text-center">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../img/portfolio-2.jpg">
+                                </a>
+                                <h3>Our Work</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item text-center">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../img/portfolio-3.jpg">
+                                </a>
+                                <h3>Our Work</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item text-center">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="../img/portfolio-4.jpg">
+                                </a>
+                                <h3>Our Work</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        </section>
+
+        <div id="carousel-example-generic" class="carousel slide content-section-a" style="border:1px solid black; background-color: #a6a6a6;">
+        <div class="container">
+            <!-- Indicators -->
+            <ol class="carousel-indicators hidden-xs">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <div class="row carousel-inner">
+            <div class="row item active">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="team-member">
+                        <img src="../img/team/1.jpg" class="img-responsive img-circle" alt=""><br>
+                        <p class="text-muted" style="color:black;">When I started experimenting with 3D design myself, Shapeways was a natural fit. Because I design so much in metal, I love that all aspects of the process- from wax model to final polishing- can be handled in a single place.</p>
+                        <a href="#"><h4><strong>KASIA WISNIEWSKI</strong></h4><br>
+                            <p class="text-muted">Collected Edition</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="../img/ipad.png" alt="">
+                </div>
+                </div>
+                <div class="row item">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="team-member">
+                        <img src="../img/team/1.jpg" class="img-responsive img-circle" alt=""><br>
+                        <p class="text-muted" style="color:black;">When I started experimenting with 3D design myself, Shapeways was a natural fit. Because I design so much in metal, I love that all aspects of the process- from wax model to final polishing- can be handled in a single place.</p>
+                        <a href="#"><h4><strong>KASIA WISNIEWSKI</strong></h4><br>
+                            <p class="text-muted">Collected Edition</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="../img/ipad.png" alt="">
+                </div>
+                </div>
+                <div class="row item">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="team-member">
+                        <img src="../img/team/1.jpg" class="img-responsive img-circle" alt=""><br>
+                        <p class="text-muted" style="color:black;">When I started experimenting with 3D design myself, Shapeways was a natural fit. Because I design so much in metal, I love that all aspects of the process- from wax model to final polishing- can be handled in a single place.</p>
+                        <a href="#"><h4><strong>KASIA WISNIEWSKI</strong></h4><br>
+                            <p class="text-muted">Collected Edition</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="../img/ipad.png" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
     
 
     <footer>
@@ -353,6 +461,11 @@
         $('#myModal').on('shown.bs.modal', function () {
             $('#myInput').focus()
         })
+    </script>
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
     </script>
 	</body>
 	
