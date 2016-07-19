@@ -370,8 +370,7 @@ section h3.section-subheading1 {
 }
 
 section.success {
-    color: #fff;
-    background: #f05f40;
+    background: url(https://static1.sw-cdn.net/files/cms/landing-pages/poly-bg-transparent.png) top center no-repeat #4fc9ff;
 }
 
 section.success a,
@@ -379,7 +378,6 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-    outline: 0;
     color: #2c3e50;
 }
 
