@@ -5,7 +5,7 @@
 
     .wizard .nav-tabs {
         position: relative;
-        margin: 20px auto;
+        margin: 10px auto;
         margin-bottom: 0;
         border-bottom-color: #e0e0e0;
     }
@@ -34,18 +34,18 @@
 }
 
 span.round-tab {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 50px;
     background: #fff;
     border: 2px solid #e0e0e0;
     z-index: 2;
     position: absolute;
     left: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 span.round-tab i{
     color:#555555;
@@ -71,7 +71,7 @@ span.round-tab:hover {
 .wizard li:after {
     content: " ";
     position: absolute;
-    left: 50%;
+    left: 46%;
     opacity: 0;
     margin: 0 auto;
     bottom: 0px;
